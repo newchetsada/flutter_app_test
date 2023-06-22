@@ -167,6 +167,9 @@ class _validatePageState extends State<validatePage> {
                       screenWidth - 100, 'ความยาวมากกว่าหรือเท่ากับ 6', 1);
                 },
                 child: Text('ความยาวมากกว่าหรือเท่ากับ 6')),
+            SizedBox(
+              height: 20,
+            ),
             ElevatedButton(
                 onPressed: () {
                   setState(() {
@@ -177,6 +180,9 @@ class _validatePageState extends State<validatePage> {
                       'กันไม่ให้มีเลขซ้ำติดกันเกิน 2 ตัว', 2);
                 },
                 child: Text('กันไม่ให้มีเลขซ้ำติดกันเกิน 2 ตัว')),
+            SizedBox(
+              height: 20,
+            ),
             ElevatedButton(
                 onPressed: () {
                   setState(() {
@@ -187,6 +193,9 @@ class _validatePageState extends State<validatePage> {
                       screenWidth - 100, 'กันไม่ให้มีเลขเรียงกันเกิน 2 ตัว', 3);
                 },
                 child: Text('กันไม่ให้มีเลขเรียงกันเกิน 2 ตัว')),
+            SizedBox(
+              height: 20,
+            ),
             ElevatedButton(
                 onPressed: () {
                   setState(() {

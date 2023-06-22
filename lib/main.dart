@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_test/currency.dart';
-import 'package:flutter_app_test/fibonacci.dart';
 import 'package:flutter_app_test/home.dart';
-import 'package:flutter_app_test/validate.dart';
 
 void main() {
   runApp(const MyApp());
