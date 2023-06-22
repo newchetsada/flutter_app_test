@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_test/currency.dart';
+import 'package:flutter_app_test/fibonacci.dart';
+import 'package:flutter_app_test/home.dart';
+import 'package:flutter_app_test/validate.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: currencyPage(),
+      home: HomePage(),
     );
   }
 }
